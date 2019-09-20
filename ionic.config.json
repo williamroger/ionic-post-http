@@ -1,11 +1,5 @@
 {
   "name": "studios",
   "integrations": {},
-  "type": "angular",
-  "proxies": [
-    {
-      "path": "/api",
-      "proxyUrl": "http://localhost:8080"
-    }
-  ]
+  "type": "angular"
 }
