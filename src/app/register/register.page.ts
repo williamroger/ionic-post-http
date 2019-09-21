@@ -43,7 +43,6 @@ export class RegisterPage implements OnInit {
   }
 
   submitForm() {
-
     const customer: CustomerModel = Object.assign(new CustomerModel(), this.customerForm.value);
 
     this.registerService.createCustumer(customer)
